@@ -15,11 +15,15 @@ If a device you are looking for is not on the list below, check out open [issues
 
 |        Device        |           CPU           | RAM | SSD | HDD | Xcode |  macOS  | Time(sec) |
 |:--------------------:|:-----------------------:|:---:|:---:|:---:|:-----:|:-------:|:---------:|
+| Mac Studio 2023      |     M2 Ultra 24-core    |  64 | 1TB |     | 14.3.1| 13.4    |     56    |
 | Mac Studio 2022      |     M1 Ultra 20-core    |  64 | 2TB |     |  13.3 | 12.3    |     67    |
 | Mac Studio 2022      |     M1 Ultra 20-core    | 128 | 4TB |     | 13.3.1| 12.3.1  |     68    |
 | MacBook Pro 16" 2023 |      M2 Max 12-core     |  32 | 1TB |     |  14.2 | 13.2    |     72    |
+| MacBook Pro 14" 2023 |      M2 Max 12-core     |  64 | 2TB |     |  14.2 | 13.2    |     72    |
+| Mac Mini 2023        |      M2 Pro 12-core     |  32 | 2TB |     |  14.2 | 13.2    |     80    |
 | MacBook Pro 14" 2023 |      M2 Pro 10-core     |  32 | 512 |     |  14.2 | 13.2    |     85    |
 | Mac Mini 2023        |     M2 Pro 10-core      |  16 | 512 |     | 14.2  | 13.2    |     85    |
+| MacBook Pro 16" 2021 |     M1 Max 10-core      |  64 | 2TB |     |  14.2 | 13.2    |     87    |
 | Mac Studio 2022      |     M1 Max 10-core      |  32 | 500 |     | 13.3.1| 12.3.1  |     89    |
 | MacBook Pro 14" 2021 |      M1 Max 10-core     |  32 | 2TB |     |  13.1 | 12.0.1  |     90    |
 | MacBook Pro 14" 2021 |      M1 Max 10-core     |  64 | 2TB |     |  13.1 | 12.0.1  |     92    |
@@ -34,6 +38,7 @@ If a device you are looking for is not on the list below, check out open [issues
 |     Mac mini 2023    |      M2 8-core          |  16 | 512 |     |  14.2 | 13.2    |    111    |
 |     Mac mini 2023    |      M2 8-core          |   8 | 256 |     |  14.2 | 13.0    |    112    |
 | MacBook Air 13" 2022 |      M2 8-core          |  16 | 512 |     | 13.4.1| 12.5    |    122    |
+| MacBook Air 15" 2023 |      M2 8-core          |  16 | 512 |     | 14.3.1| 13.4    |    122    |
 | MacBook Pro 13" 2020 |      M1 8-core          |  16 | 1TB |     |  13.1 | 12.0.1  |    130    |
 |    iMac 24" 2021     |      M1 8-core          |  16 | 512 |     |  13.1 | 12.0.1  |    130    |
 |     Mac mini 2020    |      M1 8-core          |   8 | 256 |     |  13.3 | 12.0.1  |    155    |
@@ -133,7 +138,10 @@ If a device you are looking for is not on the list below, check out open [issues
 ## Custom Hardware - Xcode 14
 |        Device        |             CPU           | RAM |  SSD  | HDD |  Xcode  |   macOS   | Time(sec) |    Comments    |
 |:--------------------:|:-------------------------:|:---:|:-----:|:---:|:-------:|:---------:|:---------:|----------------|
+|      Hackintosh      |  i9-13900k 3Ghz 24-core   |  32 |  1TB  |     |   14.2  |   13.2.1  |    53     |     Not OC     |
+|      Hackintosh      |  i9-13900k 3Ghz 24-core   |  64 | 512GB |     |  14.3.1 |   13.4.1  |    57     |                |
 |      Hackintosh      |  i9-13900k 3Ghz 24-core   |  64 | 512GB |     |   14.1  |   13.0.1  |    62     |                |
+|      Hackintosh      | i7-13700k 3.42Ghz 16-core |  64 |  1TB  |     |   14.2  |   13.2.1  |    67     |                |
 |      Hackintosh      |  i7-8700 3.2 Ghz 6-core   |  16 | 512GB |     |  14.0.1 |    12.6   |    181    | Dell Opt. 3060 |
 
 
@@ -317,3 +325,5 @@ Make sure:
 - [@alejedi](https://github.com/alejedi)
 - [@witekbobrowski](https://twitter.com/witekbobrowski)
 - [@santirodriguezaffonso](https://github.com/santirodriguezaffonso)
+- [@alexpereacode](https://github.com/alexpereacode)
+- [@fkorotkov](https://github.com/fkorotkov)
