@@ -46,7 +46,6 @@ open class SectionModel: Section, SectionLocatable
         return sectionLocationDelegate?.sectionIndex(for: self)
     }
 
-    @available(*, unavailable, message: "Please use storage.supplementaryModelProvider as a replacement.")
     /// Supplementaries dictionary.
     open var supplementaries = [String: [Int: Any]]()
     

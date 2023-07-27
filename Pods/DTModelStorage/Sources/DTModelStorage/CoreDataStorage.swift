@@ -34,7 +34,6 @@ open class CoreDataStorage<T: NSFetchRequestResult> : BaseUpdateDeliveringStorag
     /// Fetched results controller of storage
     public let fetchedResultsController: NSFetchedResultsController<T>
     
-    @available(*, unavailable, message: "Please use storage.supplementaryModel closure to customize section supplementaries")
     /// In the past, this property defined supplementaries to display with CoreDataStorage. Now, `storage.supplementaryModel` closure is used to do that.
     /// Read https://github.com/DenTelezhkin/DTModelStorage/blob/master/Guides/8.0%20Migration%20Guide.md#supplementary-provider-rewrite for details of this change.
     open var displaySectionNameForSupplementaryKinds = [""]
